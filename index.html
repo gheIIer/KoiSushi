@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="/css/styles.css">
+
+        <title>KoiSushi</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="/img/logo.png" alt="logo">
+                    KoiSushi
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About us</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#popular" class="nav__link">Popular</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#recently" class="nav__link">Recently</a>
+                        </li>
+                    </ul>
+
+                    <!-- Close button -->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                    <img src="/img/leaf-branch-4.png" alt="branch1" class="nav__img1">
+                    <img src="/img/leaf-branch-3.png" alt="branch2" class="nav__img2">
+                </div>
+
+                <div class="nav__buttons">
+                    <!-- Dark-Light Mode  -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <!-- Toggle Button  -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-apps-2-line"></i>
+                    </div>
+                </div>
+            </nav>            
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <img src="/img/home-sushi-rolls.png" alt="sushi rolls" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Enjoy Delicious
+
+                            <div>
+                                <img src="/img/home-sushi-title.png" alt="title image">
+                                Sushi Food
+                            </div>
+                        </h1>
+
+                        <p class="home__description">
+                            Enjoy a good dinner with the best dishes in 
+                            the restaurant and improve your day.
+                        </p>
+
+                        <a href="#" class="button">
+                            Order Now <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <img src="/img/leaf-branch-2.png" alt="home leaf1" class="home__leaf1">
+                <img src="/img/leaf-branch-4.png" alt="home leaf2" class="home__leaf2">
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <span class="section__subtitle">About Us</span>
+                        <h2 class="section__title about__title">
+                            <div>
+                                We Provide
+                                <img src="/img/about-sushi-title.png" alt="about sushi image">
+                            </div>
+
+                            Healthy Food
+                        </h2>
+
+                        <p class="about__description">
+                            Food comes to us from our relatives, whether they 
+                            have wings or roots. This is how we consider food,
+                            it also has a culture. It has a history that passes
+                            from generation to generation.
+                        </p>
+                    </div>
+
+                    <img src="/img/about-sushi.png" alt="about sushi image 2" class="about__img">
+                </div>
+
+                <img src="/img/leaf-branch-1.png" alt="about leaf brench" class="about__leaf">
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                <span class="section__subtitle">The Best Food</span>
+                <h2 class="section__title">Popular Dishes</h2>
+
+                <div class="popular__container container grid">
+                    <article class="popular__card">
+                        <img src="/img/popular-onigiri.png" alt="popular onigiri" class="popular__img">
+
+                        <h3 class="popular__name">Onigiri</h3>
+                        <span class="popular__description">Japanese Dish</span>
+
+                        <span class="popular__price">€10.99</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="/img/popular-spring-rols.png" alt="popular spring-rolls" class="popular__img">
+
+                        <h3 class="popular__name">Spring Rolls</h3>
+                        <span class="popular__description">Japanese Dish</span>
+
+                        <span class="popular__price">€15.99</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="/img/popular-sushi-rolls.png" alt="popular onigiri" class="popular__img">
+
+                        <h3 class="popular__name">Sushi Rolls</h3>
+                        <span class="popular__description">Japanese Dish</span>
+
+                        <span class="popular__price">€19.99</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== RECENTLY ====================-->
+            <section class="recently section" id="recently">
+                <div class="recently__container container grid">
+                    <div class="recently__data">
+                        <span class="section__subtitle">Recently Added</span>
+                        <h2 class="section__title">
+                            Sushi Samurai <br>
+                            Salmón Cheese
+                        </h2>
+
+                        <p class="recently__description">
+                            Take a look at what's new. And do not deprive
+                            yourself of a good meal, enjoy and be happy!
+                        </p>
+
+                        <a href="#" class="button">
+                            Order Now <i class="ri-arrow-right-line"></i>
+                        </a>
+
+                        <img src="/img/spinach-leaf.png" alt="spinach leaf" class="recently__data-img">
+                    </div>
+
+                    <img src="/img/recently-salmon-sushi.png" alt="salmon sushi" class="recently__img">
+                </div>
+
+                <img src="/img/leaf-branch-2.png" alt="leaf branch 2" class="recently__leaf1">
+                <img src="/img/leaf-branch-3.png" alt="leaf branch 3" class="recently__leaf2">
+
+            </section>
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section">
+                <div class="newsletter__container container">
+                    <div class="newsletter__content grid">
+                        <img src="/img/newsletter-sushi.png" alt="newsletter sushi" class="newsletter__img">
+
+                        <div class="newsletter__data">
+                            <span class="section__subtitle">Newsletter</span>
+                            <h2 class="section__title">Subscribe for 
+                                Updates</h2>
+
+                            <form action="" class="newsletter__form">
+                                <input type="email" placeholder='Enter email' class="newsletter__input">
+
+                                <button class="button newsletter__button">
+                                    Subscribe <i class="ri-send-plane-line"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <img src="/img/spinach-leaf.png" alt="spinach leaf" class="newsletter__spinach">
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <img src="/img/logo.png" alt="logo">
+                        KoiSushi
+                    </a>
+
+                    <p class="footer__description">
+                        Food for the body is not <br>
+                        enough. There must be food <br>
+                        for the soul.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">Main Menu</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Menus</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Offers</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Events</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">Information</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Contact</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Order & Returns</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Videos</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Reservation</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">Address</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Gheller st. 84</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Berlin, Germany</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">9.30AM - 11PM</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">Social Media</h3>
+
+                        <ul class="footer__social">
+                            <a href="https://www.facebook.com/" target='_blank' class="footer__social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+
+                            <a href="https://instagram.com/" target='_blank' class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+
+                            <a href="https://twitter.com/" target='_blank' class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+                <img src="/img/spring-onion.png" alt="spring onion" class="footer__onion">
+                <img src="/img/spinach-leaf.png" alt="spinach leaf" class="footer__spinach">
+                <img src="/img/leaf-branch-4.png" alt="leaf branch" class="footer__leaf">
+
+            </div>
+
+            <div class="footer__info container">
+                <div class="footer__card">
+                    <img src="img/footer-card-1.png" alt="card1">
+                    <img src="img/footer-card-2.png" alt="card2">
+                    <img src="img/footer-card-3.png" alt="card3">
+                </div>
+
+                <span class="footer__copy">
+                    &#169; Copyright Nicolò Gheller. All rights reserved
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="/js/main.js"></script>
+    </body>
+</html>
